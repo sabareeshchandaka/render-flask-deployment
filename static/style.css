@@ -1,0 +1,90 @@
+body { 
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    padding: 0; 
+    background-color: #f5f5f5;} 
+.header { 
+    background-color: black; 
+    color: white;} 
+.top-bar { 
+    text-align: center; 
+    font-size: 14px; 
+    padding: 5px; 
+    background-color: #222; 
+    justify-content: space-between;} 
+.top-bar .login-link:hover { 
+    text-decoration: underline;} 
+.main-header { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px 20px;} 
+.logo { 
+    font-size: 24px; 
+    color: white;} 
+.nav a { 
+    color: white; 
+    margin: 0 10px; 
+    text-decoration: none; 
+    font-size: 16px;} 
+.cart { 
+    color: white;} 
+.sidebar { 
+    width: 20%; 
+    padding: 20px; 
+    background-color: #fff; 
+    border-right: 1px solid #ddd;} 
+.sidebar h2, .sidebar h3 { 
+    font-size: 18px; 
+    margin-bottom: 10px;} 
+.sidebar ul { 
+    list-style: none; 
+    padding: 0;} 
+.sidebar li { 
+    margin: 5px 0; 
+    font-size: 16px;} 
+.special-products, .services { 
+    margin-top: 20px;} 
+.special-products .product, .services ul { 
+    margin-top: 10px;} 
+.main-content { 
+    display: flex;} 
+.content { 
+    width: 80%; 
+    padding: 20px;} 
+.featured-products {
+    display: flex;
+    flex-wrap: wrap; /* Optional: wrap to next line on small screens */
+    gap: 10px; /* Adds space between products */
+    justify-content: center; /* Center horizontally */
+}
+.featured-products .product { 
+    background-color: white; 
+    padding: 10px; 
+    text-align: center; 
+    border: 1px solid #ddd; 
+    border-radius: 5px; 
+    width: 170px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);} 
+.featured-products .product img { 
+    width: 100%; 
+    margin-bottom: 10px;} 
+.featured-products .product p { 
+    font-size: 16px; 
+    font-weight: bold;} 
+.footer{ 
+    background-color: #333; 
+    color: white; 
+    text-align: center; 
+    padding: 20px 10px; 
+    margin-top: 20px; 
+    font-size: 14px; } 
+.footer-content p  
+{margin: 5px 0;} 
+.flashes li { 
+    color: #fff; 
+    background-color: #28a745; 
+    padding: 10px; 
+    border-radius: 5px; 
+    margin-bottom: 10px; 
+    text-align: center;} 

@@ -1,0 +1,114 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>BigMobile Store</title> 
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}"> 
+</head> 
+<body> 
+    <header class="header"> 
+        <div class="top-bar"> 
+            <p>Get An Extra 15% OFF on Selected Models With Code: MEGA15</p> 
+            <a href="{{ url_for('login') }}" class="login-link" style="color: white;">Login / Register</a> 
+        </div> 
+        <div class="main-header"> 
+            <h1 class="logo">BigStore.com</h1> 
+            <nav class="nav"> 
+                <a href="{{ url_for('index') }}">Home</a>
+                <a href="{{ url_for('contact') }}">Contact</a>
+                <a href="{{ url_for('affiliate') }}">Affiliate</a>
+                <a href="{{ url_for('special') }}">Special</a>
+                <a href="{{ url_for('sitemap') }}">Site Map</a>
+            </nav> 
+            <div class="cart"> 
+                <a href="{{ url_for('cart') }}" style="color: white;">My Cart</a> 
+            </div> 
+        </div>
+        
+    </header> 
+    <main class="main-content"> 
+        <aside class="sidebar"> 
+            <h2>All Categories</h2> 
+            <ul> 
+                <li>Tools</li> 
+                <li>MP3 Players</li> 
+                <li>Projectors</li> 
+                <li>Tablets</li> 
+                <li>CCTV Cameras</li> 
+                <li>DSLR Cameras</li> 
+                <li>Personal Computers</li> 
+                <li>Webcams</li> 
+                <li>More Categories</li></ul> 
+            <section class="special-products"> 
+                <h3>Special Products</h3> 
+                <div class="product"> 
+                    <!--<img src="{{ url_for('static', filename='images/vivo-mobile-phone.jpg') }}" 
+alt="Product Image">--> 
+                    <p>Redmi Note 14 series (India)--- -></p> 
+                </div> 
+                <div class="product"> 
+                    <!--<img src="{{ url_for('static', filename='images/vivo-mobile-phone.jpg') }}" 
+alt="Product Image">--> 
+                    <p>Realme Neo 7--- -> </p> 
+                </div> 
+                <div class="product"> 
+                    <!--<img src="{{ url_for('static', filename='images/vivo-mobile-phone.jpg') }}" 
+alt="Product Image">--> 
+                    <p>Vivo X200 Series (India)--- -></p> 
+                </div> 
+            </section> 
+            <section class="services"> 
+                <h3>Our Services</h3> 
+                <ul> 
+                    <li>Free Shipping</li> 
+                    <li>Order Online</li> 
+                    <li>Safe Shopping</li> 
+                </ul> 
+            </section> 
+        </aside> 
+        <section class="content"> 
+            <div class="banner"> 
+                <img src="{{ url_for('static', filename='images/mainimg.jpg') }}" alt="Mega Sale Banner"> 
+            </div> 
+            <div class="featured-products"> 
+                <br> 
+            <div class="product"> 
+                <img src="{{ url_for('static', filename='images/vivo-mobile-phone.jpg') }}" alt="Phone Image"> 
+                    <p>1,20,000.00/-</p> 
+            </div>
+            <div class="product"> 
+                <img src="{{ url_for('static', filename='images/iphone.jpg') }}" alt="Phone Image"> 
+                    <p>48,000.00/-</p> 
+            </div> 
+            <div class="product"> 
+                <img src="{{ url_for('static', filename='images/oneplus.jpg') }}" alt="Phone Image"> 
+                    <p>43,199.00/-</p> 
+            </div> 
+            <div class="product"> 
+                <img src="{{ url_for('static', filename='images/samsung.jpg') }}" alt="Phone Image"> 
+                    <p>50,000.00/-</p> 
+            </div> 
+            <div class="product"> 
+                <img src="{{ url_for('static', filename='images/realme.jpg') }}" alt="Phone Image"> 
+                    <p>67,000.00/-</p> 
+            </div> 
+            <div class="product"> 
+                <img src="{{ url_for('static', filename='images/pixel.jpg') }}" alt="Phone Image"> 
+                    <p>21,000.00/-</p> 
+            </div> 
+            <div class="product"> 
+                <img src="{{ url_for('static', filename='images/vivo-mobile-phone.jpg') }}" alt="Phone Image"> 
+                    <p>90,000.00/-</p> 
+            </div> 
+            </div> 
+        </section> 
+    </main> 
+    <footer class="footer"> 
+        <div class="footer-content"> 
+            <p>Why Choose Us?</p> 
+            <br> 
+            <p>Our company is a leading provider of innovative solutions and services. We are 
+committed to our aim of providing quality services.</p> 
+            <br><p>© 2025 BigMobileStore. All Rights Reserved.</p> 
+        </div></footer></body></html>

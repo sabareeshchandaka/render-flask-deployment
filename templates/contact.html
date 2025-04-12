@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact - BigMobile Store</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <header class="header">
+        <div class="top-bar">
+            <p>Get An Extra 15% OFF on Selected Models With Code: MEGA15</p>
+            <a href="{{ url_for('login') }}" class="login-link" style="color: white;">Login / Register</a>
+        </div>
+        <div class="main-header">
+            <h1 class="logo">BigStore.com</h1>
+            <nav class="nav">
+                <a href="{{ url_for('index') }}">Home</a>
+                <a href="{{ url_for('contact') }}">Contact</a>
+                <a href="{{ url_for('affiliate') }}">Affiliate</a>
+                <a href="{{ url_for('special') }}">Special</a>
+                <a href="{{ url_for('sitemap') }}">Site Map</a>
+            </nav>
+            <div class="cart">
+                <a href="{{ url_for('cart') }}" style="color: white;">My Cart</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <section class="content" style="width: 100%;">
+            <h2>Contact Us</h2>
+            <p>For inquiries, please email us at <strong>support@bigmobilestore.com</strong> or call 1800-111-222.</p>
+            <p>Our customer care is available 9 AM – 6 PM, Monday to Saturday.</p>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>Why Choose Us?</p><br>
+            <p>Our company is a leading provider of innovative solutions and services. We are committed to our aim of providing quality services.</p><br>
+            <p>© 2025 BigMobileStore. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
